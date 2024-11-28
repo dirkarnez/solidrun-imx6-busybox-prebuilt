@@ -22,7 +22,6 @@ cd ./busybox && \
 export CROSS_COMPILE="arm-linux-gnueabihf-" && \
 export ARCH="arm" && \
 announce "Building busybox" && \
-STATIC
 make help && \
 make defconfig && \
 echo "CONFIG_STATIC=y" >> .config && \
