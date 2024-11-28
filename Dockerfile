@@ -62,4 +62,4 @@ COPY . /workspace
 WORKDIR /workspace
 VOLUME /dist
 
-CMD [ "bash", "./makelinux.sh" ]
+CMD [ "bash", "./makebusybox.sh" ]
