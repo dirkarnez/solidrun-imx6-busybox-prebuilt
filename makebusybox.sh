@@ -17,7 +17,7 @@ set -e
 export PATH="/opt/gcc-linaro-7.5.0-2019.12-i686_arm-linux-gnueabihf/bin:$PATH" && \
 arm-linux-gnueabihf-gcc --version && \
 cd /workspace && \
-git clone --branch 1_37_0 https://git.busybox.net/busybox.git && \
+git clone --branch 1_34_0 https://git.busybox.net/busybox.git && \
 cd ./busybox && \
 export CROSS_COMPILE="arm-linux-gnueabihf-" && \
 export ARCH="arm" && \
