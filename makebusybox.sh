@@ -26,13 +26,13 @@ make help && \
 make defconfig && \
 echo "CONFIG_STATIC=y" >> .config && \
 make CROSS_COMPILE="arm-linux-gnueabihf-" LDFLAGS="--static" && \
-make CONFIG_PREFIX=$(pwd)/installation install && \
+make CONFIG_PREFIX="$(pwd)/installation" install && \
 announce "busybox build appears to have been successful"  && \
+cd installation && \
 ls -R && \
-cd ./installation && \
 rm linuxrc && \
-find . | cpio -o -H newc > /dist/init.cpio
-
+find . | cpio -o -H newc > /dist/init.cpio && \
+announce "cpio have been created successfully"
 # && \
 # announce "copying files" && \
 # install -v -m644 -D ./arch/arm/boot/zImage /dist/zImage && \
