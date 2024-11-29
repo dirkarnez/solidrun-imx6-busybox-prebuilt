@@ -29,6 +29,7 @@ make CROSS_COMPILE="arm-linux-gnueabihf-" LDFLAGS="--static" && \
 make CONFIG_PREFIX="$(pwd)/installation" install && \
 announce "busybox build appears to have been successful"  && \
 cd installation && \
+cp /workspace/init . && \
 ls -R && \
 rm linuxrc && \
 find . | cpio -o -H newc > /dist/init.cpio && \
