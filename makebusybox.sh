@@ -30,6 +30,7 @@ make CONFIG_PREFIX="$(pwd)/installation" install && \
 announce "busybox build appears to have been successful"  && \
 cd installation && \
 cp /workspace/init . && \
+chmod +x init && \
 ls -R && \
 rm linuxrc && \
 find . | cpio -o -H newc > /dist/init.cpio && \
