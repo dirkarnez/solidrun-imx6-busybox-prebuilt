@@ -15,7 +15,8 @@ RUN apt-get -y --no-install-recommends --allow-unauthenticated install \
    bash \
    bc \
    file \
-   lzop
+   lzop \
+   cpio
 
 RUN dpkg --add-architecture i386 && \
    apt-get update && \
