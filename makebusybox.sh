@@ -34,7 +34,6 @@ mkdir -p bin sbin etc proc sys dev usr/bin usr/sbin && \
 cp /workspace/init . && \
 chmod +x ./init && \
 ls -R && \
-rm linuxrc && \
 find . | cpio -o -H newc | gzip > /dist/initramfs.cpio.gz && \
 announce "cpio have been created successfully"
 # && \
