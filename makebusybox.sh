@@ -24,7 +24,8 @@ export ARCH="arm" && \
 announce "Building busybox" && \
 make help && \
 make defconfig && \
-echo "CONFIG_STATIC=y" >> .config && \
+sed -i 's/# CONFIG_STATIC is not set/CONFIG_STATIC=y/' .config && \
+cat .config && \
 make CROSS_COMPILE="arm-linux-gnueabihf-" LDFLAGS="--static" && \
 make CONFIG_PREFIX="$(pwd)/initramfs" install && \
 announce "busybox build appears to have been successful"  && \
