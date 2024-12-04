@@ -26,14 +26,15 @@ make help && \
 make defconfig && \
 echo "CONFIG_STATIC=y" >> .config && \
 make CROSS_COMPILE="arm-linux-gnueabihf-" LDFLAGS="--static" && \
-make CONFIG_PREFIX="$(pwd)/installation" install && \
+make CONFIG_PREFIX="$(pwd)/initramfs" install && \
 announce "busybox build appears to have been successful"  && \
-cd installation && \
+cd initramfs && \
+mkdir -p bin sbin etc proc sys dev usr/bin usr/sbin && \
 cp /workspace/init . && \
 chmod +x init && \
 ls -R && \
 rm linuxrc && \
-find . | cpio -o -H newc > /dist/init.cpio && \
+find . -print0 | cpio --null -ov --format=newc | gzip -9 > /dist/init.cpio && \
 announce "cpio have been created successfully"
 # && \
 # announce "copying files" && \
