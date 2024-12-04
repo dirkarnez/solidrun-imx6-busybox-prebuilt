@@ -16,3 +16,7 @@ solidrun-imx6-busybox-prebuilt
 - [在qemu上运行BusyBox - wipan - 博客园](https://www.cnblogs.com/wipan/p/9272255.html)
 - [**initramfs 在内核中的作用与实现-CSDN博客**](https://blog.csdn.net/song_lee/article/details/106027410)
 - [**用busybox制作initramfs并启动 | CS笔记**](https://cs.pynote.net/sf/linux/sys/202111123/#busybox_1)
+
+### Reference
+- [./reference/debian-installer-init](./reference/debian-installer-init)
+  - from https://solid-run-images.sos-de-fra-1.exo.io/Pure-Debian/armhf/12/2024-11-18_1ba322c/debian-12.8.0-armhf-netinst.img
