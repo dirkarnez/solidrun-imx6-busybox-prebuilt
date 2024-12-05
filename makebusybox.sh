@@ -34,6 +34,11 @@ mkdir -p bin sbin etc proc sys dev usr/bin usr/sbin && \
 cp /workspace/init . && \
 chmod +x ./init && \
 ls -R && \
+cd /workspace/busybox/initramfs/dev && \
+mknod console c 5 1 && \
+mknod null c 1 3 && \
+cd /workspace/busybox/initramfs && \
+ls -R && \
 find . | cpio -o -H newc | gzip > /dist/initramfs.cpio.gz && \
 announce "cpio have been created successfully"
 # && \
