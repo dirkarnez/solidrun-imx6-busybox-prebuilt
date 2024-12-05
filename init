@@ -7,5 +7,10 @@ mkdir -p /run/lock
 mount /proc
 mount /sys
 
+# Start mdev if available in BusyBox
+if [ -x /sbin/mdev ]; then
+    mdev -s
+fi
+
 init='/bin/busybox init'
 exec $init
