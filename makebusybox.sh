@@ -40,10 +40,8 @@ mknod null c 1 3 && \
 cd /workspace/busybox/initramfs/etc && \
 mkdir -p init.d && \
 cd init.d && \
-cat <<EOF > rcS
-#!/bin/sh
-EOF && \
-chmod +x rcS && \
+cp /workspace/rcS . && \
+chmod +x ./rcS && \
 cd /workspace/busybox/initramfs && \
 ls -R && \
 find . | cpio -o -H newc | gzip > /dist/initramfs.cpio.gz && \
