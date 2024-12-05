@@ -17,6 +17,7 @@ solidrun-imx6-busybox-prebuilt
 - [在qemu上运行BusyBox - wipan - 博客园](https://www.cnblogs.com/wipan/p/9272255.html)
 - [**initramfs 在内核中的作用与实现-CSDN博客**](https://blog.csdn.net/song_lee/article/details/106027410)
 - [**用busybox制作initramfs并启动 | CS笔记**](https://cs.pynote.net/sf/linux/sys/202111123/#busybox_1)
+- [camerasrnd/busybox/build.md at d6007c45963999e4fc9237ba641d41d626d39309 · OpenIPC/camerasrnd](https://github.com/OpenIPC/camerasrnd/blob/d6007c45963999e4fc9237ba641d41d626d39309/busybox/build.md?plain=1#L26)
 
 ### Reference
 - [./reference/debian-installer-init](./reference/debian-installer-init)
