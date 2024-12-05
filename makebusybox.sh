@@ -26,8 +26,8 @@ make help && \
 make defconfig && \
 sed -i 's/# CONFIG_STATIC is not set/CONFIG_STATIC=y/' .config && \
 cat .config &&  \
-make CROSS_COMPILE="arm-linux-gnueabihf-" LDFLAGS="--static" -j 8 && \
-make CONFIG_PREFIX="$(pwd)/initramfs" install && \
+make ARCH=arm CROSS_COMPILE="arm-linux-gnueabihf-" LDFLAGS="--static" -j 8 && \
+make ARCH=arm CONFIG_PREFIX="$(pwd)/initramfs" install && \
 announce "busybox build appears to have been successful"  && \
 cd initramfs && \
 mkdir -p bin sbin etc proc sys dev usr/bin usr/sbin && \
