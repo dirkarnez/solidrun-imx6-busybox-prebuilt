@@ -3,6 +3,7 @@ solidrun-imx6-busybox-prebuilt
 - https://github.com/docker-library/busybox/blob/master/.patches/sha1_process_block64_shaNI.patch
 
 ### Tutorials
+- [**mini-distribution/hummingboard: The Hummingboard Mini Distribution**](https://github.com/mini-distribution/hummingboard)
 - [**Build a kernel, initramfs and Busybox to create your own micro-Linux | cylab.be**](https://cylab.be/blog/320/build-a-kernel-initramfs-and-busybox-to-create-your-own-micro-linux)
 - [busybox添加wireless tool工具_busybox ethtool-CSDN博客](https://blog.csdn.net/Cupid99/article/details/70168053)
 - [busybox添加wireless tool工具iwlist iwconfig (TODO)_busybox iwconfig-CSDN博客](https://blog.csdn.net/kangear/article/details/80219478)
