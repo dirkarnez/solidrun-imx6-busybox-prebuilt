@@ -4,6 +4,7 @@ solidrun-imx6-busybox-prebuilt
 
 ### Tutorials
 - [**mini-distribution/hummingboard: The Hummingboard Mini Distribution**](https://github.com/mini-distribution/hummingboard)
+- [[Buildroot] [PATCH 1/1] Solid-Run HummingBoard i2eX defconfig and bootable microSD Bash script - Jonathan Ben-Avraham](https://lore.kernel.org/buildroot/1432820170-10513-1-git-send-email-yba@tkos.co.il/#Z31configs:hummingboard_i2eX_defconfig)
 - [**Build a kernel, initramfs and Busybox to create your own micro-Linux | cylab.be**](https://cylab.be/blog/320/build-a-kernel-initramfs-and-busybox-to-create-your-own-micro-linux)
 - [busybox添加wireless tool工具_busybox ethtool-CSDN博客](https://blog.csdn.net/Cupid99/article/details/70168053)
 - [busybox添加wireless tool工具iwlist iwconfig (TODO)_busybox iwconfig-CSDN博客](https://blog.csdn.net/kangear/article/details/80219478)
