@@ -8,5 +8,4 @@ mount /proc
 mount /sys
 
 init='/bin/busybox init'
-debugshell "before init"
 exec $init
