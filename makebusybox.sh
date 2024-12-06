@@ -30,7 +30,7 @@ make ARCH=arm CROSS_COMPILE="arm-linux-gnueabihf-" LDFLAGS="--static" -j 8 && \
 make ARCH=arm CONFIG_PREFIX="$(pwd)/initramfs" install && \
 announce "busybox build appears to have been successful"  && \
 cd initramfs && \
-mkdir -p bin sbin etc proc sys dev usr/bin usr/sbin && \
+mkdir -p bin sbin etc proc sys dev usr/bin usr/sbin etc/init.d usr/lib && \
 cp /workspace/init . && \
 chmod +x ./init && \
 ls -R && \
