@@ -2,6 +2,9 @@ solidrun-imx6-busybox-prebuilt
 ==============================
 - https://github.com/docker-library/busybox/blob/master/.patches/sha1_process_block64_shaNI.patch
 
+### TODO
+- `/dev/ttymxc0 initramfs`
+
 ### Tutorials
 - [**mini-distribution/hummingboard: The Hummingboard Mini Distribution**](https://github.com/mini-distribution/hummingboard)
 - [[Buildroot] [PATCH 1/1] Solid-Run HummingBoard i2eX defconfig and bootable microSD Bash script - Jonathan Ben-Avraham](https://lore.kernel.org/buildroot/1432820170-10513-1-git-send-email-yba@tkos.co.il/#Z31configs:hummingboard_i2eX_defconfig)
