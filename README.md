@@ -21,6 +21,14 @@ solidrun-imx6-busybox-prebuilt
 - [**用busybox制作initramfs并启动 | CS笔记**](https://cs.pynote.net/sf/linux/sys/202111123/#busybox_1)
 - [camerasrnd/busybox/build.md at d6007c45963999e4fc9237ba641d41d626d39309 · OpenIPC/camerasrnd](https://github.com/OpenIPC/camerasrnd/blob/d6007c45963999e4fc9237ba641d41d626d39309/busybox/build.md?plain=1#L26)
 - [bilibili/scripts/qemu-busybox.sh at 960f10a81ca099c6271474b3c01237881828ea84 · LeisureLinux/bilibili](https://github.com/LeisureLinux/bilibili/blob/960f10a81ca099c6271474b3c01237881828ea84/scripts/qemu-busybox.sh#L246)
+- inittab
+  - [inittab脚本启动解析_inittab respawn-CSDN博客](https://blog.csdn.net/hbcbgcx/article/details/94404346)
+  - [inittab 檔案 - IBM 說明文件](https://www.ibm.com/docs/zh-tw/aix/7.3?topic=files-inittab-file)
+  - [inittab 分析 - SuperTao1024 - 博客园](https://www.cnblogs.com/helloworldtoyou/p/6159913.html)
+  - [Linux根文件系统：/etc/inittab文件分析 - LinFeng-Learning - 博客园](https://www.cnblogs.com/linfeng-learning/p/9285543.html)
+  - [**Linux System : Managing Linux Services - initramfs · Issue #173 · carloscn/blog**](https://github.com/carloscn/blog/issues/173)
+    - [genkernel - Gentoo wiki](https://wiki.gentoo.org/wiki/Genkernel#Initramfs_kernel_command-line_parameters)
+    - [Dracut - Gentoo wiki](https://wiki.gentoo.org/wiki/Dracut)
 
 ### Reference
 - [./reference/debian-installer-init](./reference/debian-installer-init)
