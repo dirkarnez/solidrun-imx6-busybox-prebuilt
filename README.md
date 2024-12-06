@@ -4,6 +4,8 @@ solidrun-imx6-busybox-prebuilt
 
 ### TODO
 - `/dev/ttymxc0 initramfs`
+  - `BR2_TARGET_GENERIC_GETTY_PORT` in buildroot
+  - GitHub Search
 
 ### Tutorials
 - [**mini-distribution/hummingboard: The Hummingboard Mini Distribution**](https://github.com/mini-distribution/hummingboard)
