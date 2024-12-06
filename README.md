@@ -25,3 +25,4 @@ solidrun-imx6-busybox-prebuilt
 ### Reference
 - [./reference/debian-installer-init](./reference/debian-installer-init)
   - from https://solid-run-images.sos-de-fra-1.exo.io/Pure-Debian/armhf/12/2024-11-18_1ba322c/debian-12.8.0-armhf-netinst.img
+  - https://ftp.debian.org/debian/dists/bookworm/main/installer-armhf/20230607+deb12u8/images/hd-media/initrd.gz
