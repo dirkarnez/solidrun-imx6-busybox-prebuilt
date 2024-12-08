@@ -5,6 +5,8 @@
 # Start an askfirst shell on the serial ports
 # and the tty0 for when the video is being used
 
+ttymxc0::respawn:/sbin/getty -L  ttymxc0 0 vt100 
+
 ttymxc0::respawn:-/bin/ash
 tty0::respawn:-/bin/ash
 
