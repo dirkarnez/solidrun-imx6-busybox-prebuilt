@@ -3,7 +3,7 @@ solidrun-imx6-busybox-prebuilt
 - https://github.com/docker-library/busybox/blob/master/.patches/sha1_process_block64_shaNI.patch
 
 ### TODO
-- `/dev/ttymxc0 initramfs`
+- `/dev/ttymxc0 initramfs`, `ttymxc0::respawn:/sbin/getty`
   - `BR2_TARGET_GENERIC_GETTY_PORT` in buildroot
   - GitHub Search
   - [linusw/rootfs-build: RootFS generation script to build cpio initramfs for Linux embedded targets](https://github.com/linusw/rootfs-build)
