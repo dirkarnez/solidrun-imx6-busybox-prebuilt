@@ -6,6 +6,7 @@ solidrun-imx6-busybox-prebuilt
 - `/dev/ttymxc0 initramfs`
   - `BR2_TARGET_GENERIC_GETTY_PORT` in buildroot
   - GitHub Search
+  - [linusw/rootfs-build: RootFS generation script to build cpio initramfs for Linux embedded targets](https://github.com/linusw/rootfs-build)
 
 ### Tutorials
 - [**mini-distribution/hummingboard: The Hummingboard Mini Distribution**](https://github.com/mini-distribution/hummingboard)
