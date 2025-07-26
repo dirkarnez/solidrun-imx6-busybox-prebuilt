@@ -12,7 +12,9 @@ solidrun-imx6-busybox-prebuilt
   - [linusw/rootfs-build: RootFS generation script to build cpio initramfs for Linux embedded targets](https://github.com/linusw/rootfs-build)
     - /etc/init.d/splash
     - /etc/splash-*
-
+- /etc/fstab
+  - [Linux busybox mount -a fstab - zengjf - 博客园](https://www.cnblogs.com/zengjfgit/p/5134290.html)
+  - [Linux 再入门整理：详解 /etc/fstab 文件_linux fstab-CSDN博客](https://blog.csdn.net/peng2hui1314/article/details/142675349)
 ### Tutorials
 - [**mini-distribution/hummingboard: The Hummingboard Mini Distribution**](https://github.com/mini-distribution/hummingboard)
 - [[Buildroot] [PATCH 1/1] Solid-Run HummingBoard i2eX defconfig and bootable microSD Bash script - Jonathan Ben-Avraham](https://lore.kernel.org/buildroot/1432820170-10513-1-git-send-email-yba@tkos.co.il/#Z31configs:hummingboard_i2eX_defconfig)
