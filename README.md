@@ -21,6 +21,7 @@ BR2_SYSTEM_DEFAULT_PATH="/bin:/sbin:/usr/bin:/usr/sbin"
 - [Linux·busybox编译和移植，生成最简根文件系统_busybox移植-CSDN博客](https://blog.csdn.net/m0_64560763/article/details/126309501?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EOPENSEARCH%7EPaidSort-1-126309501-blog-122533071.235%5Ev43%5Epc_blog_bottom_relevance_base3&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EOPENSEARCH%7EPaidSort-1-126309501-blog-122533071.235%5Ev43%5Epc_blog_bottom_relevance_base3&utm_relevant_index=1)
 
 ### TODO
+- `BR2_TARGET_ROOTFS_INITRAMFS`
 - `/dev/ttymxc0 initramfs`, `ttymxc0::respawn:/sbin/getty`
   - `BR2_TARGET_GENERIC_GETTY_PORT` in buildroot
   - GitHub Search
